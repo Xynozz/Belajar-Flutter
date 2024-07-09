@@ -2,14 +2,10 @@ import 'package:flutter/material.dart';
 
 class NewsContainer extends StatelessWidget {
   @override
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:466029558.
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:315103170.
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:647246743.
       padding: EdgeInsets.all(16.0),
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:792845136.
       decoration: BoxDecoration(
       border: Border.all(color: Colors.grey),
       borderRadius: BorderRadius.circular(8.0),
@@ -26,7 +22,7 @@ class NewsContainer extends StatelessWidget {
               height: 200.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1BixxM1fjiNVreq3akfhT7SCHKiDy0pks3Q&s'),
+                  image: AssetImage('assets/images/pp wa.jpeg'),
                   fit: BoxFit.cover,
                 ),
                 borderRadius: BorderRadius.circular(8.0),
